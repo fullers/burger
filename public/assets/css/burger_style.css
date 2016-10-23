@@ -13,3 +13,7 @@ h2 {
 	color: #8A1927;
 	
 }
+
+ul {
+	list-style-type: none;
+}
