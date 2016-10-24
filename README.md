@@ -79,7 +79,7 @@ When you are on the home page you may enter a burger you would like to eat in th
 
 ## Authors
 
-* **Shaun** - *Javascript, Node.js*
+* **Shaun** - * Javascript, Node.js, Express, Handlebars (HTML Templates), MySQL*
 
 ## License
    
