@@ -16,24 +16,24 @@ The following technologies, tools, and npm packages were used:
 
 ## Files and Folder Structure
 
-* server.js - File used to start the node.js web server.
-* package.json - File used to insta the npm packages.
-* .gitignore - File used to ignore the node_modules file used by NPM and connect.js
-* config - Folder to with connect.js and orm.js
+* **server.js** - File used to start the node.js web server.
+* **package.json** - File used to insta the npm packages.
+* **.gitignore** - File used to ignore the node_modules file used by NPM and connect.js
+* **config** - Folder to with connect.js and orm.js
 	* connect.js - Sets connection to SQL Database.
 	* orm.js - Where you write functions that takes inputs and conditions and turn them into database commands like SQL.
-* controllers - Folder to store controller files
+* **controllers** - Folder to store controller files
 	* burger_controller.js - File where you create all the functions that will do the routing for your app, and the logic of each route.
-* db - Folder to store sql files
+* **db** - Folder to store sql files
 	* schema.sql - File to create database and table for the database.
 	* seeds.sql - File that inserts default data into the database table.
-* models - Folder to house your model files.
+* **models** - Folder to house your model files.
 	* burger.js - File where you setup a model for how to interface with the database.
-* public - Folder to store any files the browser needs to access.
-	* assets - Folder to store CSS and Images
-		*css - Sub folder to store css files.
+* **public** - Folder to store any files the browser needs to access.
+	* **assets** - Folder to store CSS and Images
+		* **css** - Sub folder to store css files.
 			* burger_style.css - File used to create the CSS needed for the application.
-		*img - Sub folder to store image files.
+		* **img** - Sub folder to store image files.
 			*burger.png - image used for the header 
 			*screenshot1.png - image used for this README.md
 
